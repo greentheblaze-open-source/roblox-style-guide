@@ -1,0 +1,36 @@
+site_name: Roblox Style Guide
+site_url: https://greentheblaze-open-source.github.io/roblox-style-guide/
+
+repo_name: greentheblaze-open-source/roblox-style-guide
+repo_url: https://github.com/greentheblaze-open-source/roblox-style-guide
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+  palette:
+    scheme: default
+    primary: light-blue
+    accent: light-blue
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.extra
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Style Guide: style-guide.md
