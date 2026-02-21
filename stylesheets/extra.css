@@ -1,0 +1,91 @@
+:root {
+    --code-bg-good: #ecffe5;
+}
+
+/* Dark theme override */
+[data-md-color-scheme="slate"] {
+    --code-bg-good: #223322;
+}
+
+.md-typeset .style-good {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.md-typeset .style-good pre>code {
+    font-weight: normal;
+    background-color: #ecffe5;
+    margin-top: 0;
+}
+
+.md-typeset .style-good-auto-header pre,
+
+.md-typeset .style-good-auto-header pre>code {
+    font-weight: normal;
+    background-color: #ecffe5;
+    display: block;
+    margin-top: 0;
+}
+
+.md-typeset .style-good-auto-header::before {
+    color: green;
+    content: "Good:";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.md-typeset .style-bad {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.md-typeset .style-bad pre>code {
+    font-weight: normal;
+    background-color: #ffecec;
+    margin-top: 0;
+}
+
+.md-typeset .style-bad-auto-header pre,
+
+.md-typeset .style-bad-auto-header pre>code {
+    font-weight: normal;
+    background-color: #ffecec;
+    margin-top: 0;
+}
+
+.md-typeset .style-bad-auto-header::before {
+    color: red;
+    content: "Bad:";
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.md-typeset .style-exception {
+    color: orange;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.md-typeset .style-exception pre>code {
+    font-weight: normal;
+    background-color: #fffaf1;
+    margin-top: 0;
+}
+
+.md-typeset .style-exception-auto-header pre,
+
+.md-typeset .style-exception-auto-header pre>code {
+    font-weight: normal;
+    background-color: #fffaf1;
+    margin-top: 0;
+}
+
+.md-typeset .style-exception-auto-header::before {
+    color: orange;
+    content: "Exception:";
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
