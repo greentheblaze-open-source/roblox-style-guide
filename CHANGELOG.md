@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
+### Fixed
 
-- More themes to the style guide site, including dark themes.
+- The "Unreleased" section to resolve a violation of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), which was caused by listing a feature that may be worked on in the future under this section, despite no prior development having been started.
+
+- A typo in [the link of release 0.2.0 in this CHANGELOG](https://github.com/greentheblaze/roblox-style-guide/blob/main/CHANGELOG.md#020---2026-02-21), which did not create a comparison from that release to the previous one ([0.1.0]).
 
 ## [0.2.0] - 2026-02-21
 
@@ -31,5 +33,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [readme]: https://github.com/greentheblaze/roblox-style-guide/blob/main/README.md
 
 [unreleased]: https://github.com/greentheblaze/roblox-style-guide/compare/v0.2.0...HEAD
-[0.2.0]: https://github.com/greentheblaze/roblox-style-guide/releases/tag/v0.2.0
+[0.2.0]: https://github.com/greentheblaze/roblox-style-guide/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/greentheblaze/roblox-style-guide/releases/tag/v0.1.0
